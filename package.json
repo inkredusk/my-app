@@ -18,7 +18,8 @@
         "eject": "react-scripts eject",
         "format": "prettier --write .",
         "lint": "eslint .",
-        "pre-commit": "eslint . --fix"
+        "pre-commit": "eslint . --fix",
+        "prepare": "husky install"
     },
     "husky": {
         "hooks": {
@@ -52,7 +53,7 @@
         "eslint-plugin-prettier": "^3.4.0",
         "eslint-plugin-react": "^7.24.0",
         "eslint-plugin-react-hooks": "^4.2.0",
-        "husky": "^7.0.1",
+        "husky": "^7.0.0",
         "prettier": "^2.3.2"
     }
 }

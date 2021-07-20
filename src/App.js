@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 let test;
+var test2;
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Sample App
+          Learn React
         </a>
       </header>
     </div>
