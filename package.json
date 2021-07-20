@@ -17,8 +17,7 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "format": "prettier --write .",
-        "lint": "prettier --check .",
-        "prepare": "husky install"
+        "lint": "prettier --check ."
     },
     "lint-staged": {
         "*.{js}": [
@@ -26,8 +25,7 @@
         ],
         "*.{json,md,html}": [
             "prettier --write"
-        ],
-        "*.js": "eslint --cache --fix"
+        ]
     },
     "eslintConfig": {
         "extends": [
