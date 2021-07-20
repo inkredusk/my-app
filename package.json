@@ -25,7 +25,12 @@
     }
   },
   "lint-staged": {
-    "*": "prettier --write . && git add -A ."
+    "*.{js}": [
+        "eslint --quiet --fix"
+    ],
+    "*.{json,md,html}": [
+        "prettier --write"
+    ]
   },
   "eslintConfig": {
     "extends": [
