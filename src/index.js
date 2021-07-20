@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-var tets;
+let tets;
 
 ReactDOM.render(
     <React.StrictMode>

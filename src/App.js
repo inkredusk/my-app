@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-let test;
+var test;
 function App() {
     return (
         <div className="App">
